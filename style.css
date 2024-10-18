@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    /* font-family: "CarbonRegular", Arial, Helvetica, sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper{
+    /* background-color: aqua; */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dial_face img{
+    width: 500px;
+    height: 500px;
+}
+.dial_face{
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
+/* SECOND  */
+.main_second{
+ width: 400px;
+ height: 400px;
+ /* background-color: rgba(104, 121, 126, 0.144); */
+ position: absolute;
+ top: 50px;
+ left: 50px;
+ border-radius: 50%;
+}
+.second_wrapper{
+    position: relative;
+
+}
+.second_wrapper .second{
+    width: 4px;
+    height: 250px;
+    background-color: rgb(115, 218, 239);
+    position: absolute;
+    left: 198px;
+    border-radius: 16px;
+}
+.second_wrapper .arrow{
+    font-size: 25px;
+    font-weight: medium;
+    color: blue;
+    transform: rotate(180deg);
+    position: absolute;
+    left: 190px;
+    top: -7px;
+}
+
+/* HOUR  */
+.main_hour{
+
+    /* own  */
+    width: 240px;
+    height: 240px;
+    /* background-color: rgba(210, 204, 204, 0.3); */
+    position: absolute;
+    top: 132px;
+    left: 132px;
+    border-radius: 50%;
+   }
+   .hour_wrapper{
+       position: relative;
+   
+   }
+   .hour_wrapper .hour{
+
+       width: 15px;
+       height: 120px;
+       background-color: rgb(43, 226, 49);
+       position: absolute;
+       left: 111px;
+       border-radius: 16px;
+
+   }
+   .hour_wrapper .arrow{
+    font-size: 30px;
+    font-weight: medium;
+    color: blue;
+    transform: rotate(180deg);
+    position: absolute;
+    left: 140px;
+    top: -7px;
+}
+
+/* minute  */
+.main_minute{
+    width: 350px;
+    height: 350px;
+    /* background-color: rgba(165, 214, 219, 0.3); */
+    position: absolute;
+    top: 75px;
+    left: 75px;
+    border-radius: 50%;
+   }
+   .minute_wrapper{
+       position: relative;
+   
+   }
+   .minute_wrapper .minute{
+       width: 12px;
+       height: 175px;
+       background-color: rgb(136, 159, 187);
+       position: absolute;
+       left: 169px;
+       border-radius: 16px;
+   }
+   .minute_wrapper .arrow{
+       font-size: 25px;
+       font-weight: medium;
+       color: blue;
+       transform: rotate(180deg);
+       position: absolute;
+       left: 166px;
+       top: -7px;
+   }
+
+   #day_date{
+    position: absolute;
+    right: 50px;
+    top: 241px;
+    font-weight: medium;
+   }
